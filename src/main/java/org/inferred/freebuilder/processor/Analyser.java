@@ -102,6 +102,7 @@ class Analyser {
       new NullablePropertyFactory(), // Must be first, as no other factory supports nulls
       new ListPropertyFactory(),
       new SetPropertyFactory(),
+      new SortedSetPropertyFactory(),
       new MapPropertyFactory(),
       new MultisetPropertyFactory(),
       new ListMultimapPropertyFactory(),
